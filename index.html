@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!--Nombre:Nicole Martin-->
+<!--Asignatura: Programacion y diseño de aplicaciones web-->
+<!--Actividad 1: Crear una aplicación de mi perfil personal-->
+
+<html lang="es">
+<!--la etiqueta DOCTYPE html indica el tipo de documento y siempre va-->
+<!--la etiqueta de html da por inicio el documento completo-->
+
+<head>
+    <!--En a etiqueta del head se incluye el titulo de la pagina, los metadatos y 
+    los enlaces externos como el css, estilos, y apis de letras, iconos y demas-->
+
+<meta charset="UTF-8">
+<meta name="description" content="perfil profesional Nicole Martin">
+  <meta name="keywords" content="Mercadotecnia, Diseño, Publicidad">
+  <meta name="author" content="Nicole Martin">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<title> Nicole | Fin </title>
+    <!--la etiqueta title es el titulo de como se muestra en el navegador-->
+ </head> <!--Aqui termina y se cierra el head-->
+
+ <!--Aqui INICIA EL BODY-->
+ <body>
+    <!--la etiqueta div es para crear una división en la pagina-->
+    <main class="card">
+    
+     <div class="cover">
+         <img src="https://i.pinimg.com/1200x/84/05/d1/8405d10f01dfefa3816f8a7cd4f6b529.jpg" alt="Foto de cover">
+
+    </div>
+      
+    <!--SECCION DEL PERFIL-->
+
+    <section class="profile"> 
+
+     <div class="profile-image">
+        <img src="Foto.jpeg" alt="Foto de Nicole Martin" width="200" height="350">
+     </div>
+
+
+        <h1> Nicole Martin </h1>
+        <h2> Estudiante en Mercadotecnia </h2>
+        <p class ="profile description"> </p> 
+            Soy estudiante de Mercadotecnia y me estoy formando para comprender el comportamiento del consumidor, desarrollar estrategias y crear ideas que conecten a las marcas con las personas.
+        </p>
+
+
+    <!--Redes sociales-->
+
+        <div class="social-links">
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/nicole.mnissen?stkn=MW9yaDJxdXZweXQzYw%3D%3D&utm_source=qr" target="_blank" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://mx.linkedin.com/" target="_blank" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <!-- GitHub -->
+                <a href="https://github.com/nmartinn001/actividades-dw-nicolemn" target="_blank" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                  <!-- TikTok -->
+                <a href="https://www.tiktok.com/@nicole.mnissen?_r=1&_t=ZS-9AIpFgVmEQW" target="_blank" aria-label="TikTok">
+                <i class="fa-brands fa-tiktok"></i>
+                </a>
+
+            </div>
+<nav class="tabs">
+                <button class="tab active" data-section="about">
+                    Sobre mí 
+                </button>
+
+                <button class="tab" data-section="experience">
+                    Experiencia
+                </button>
+
+                <button class="tab" data-section="projects">
+                    Proyectos
+                </button>
+
+                <button class="tab" data-section="contact">
+                    Contacto
+                </button>
+
+            </nav>
+    
+    <!--Contenido de las secciones: Sobre mí, Experiencia, Proyectos, Contacto-->
+    
+    <div class="content">
+   <!--Sección de "Sobre mí"-->
+   <section id="about" class="tab-content active">
+
+                    <h3>Sobre mí</h3>
+
+                    <p>
+                        Soy estudiante de Mercadotecnia, apasionada por la creatividad,
+    la comunicación y el mundo de los negocios.
+                    </p>
+
+                    <p>
+                       Me interesa aprender sobre marketing digital, branding,
+    comportamiento del consumidor y estrategias de mercado.
+                    </p>
+
+                    <div class="skills">
+
+                        <span>Trabajo en Equipo</span>
+                        <span>Comunicación</span>
+                        <span>Relaciones</span>
+                        <span>Adaptabilidad</span>
+                        <span>Creatividad</span>
+                        <span>Resolución de Problemas</span>
+
+                    </div>
+
+                </section>
+          <!--Sección "Experiencia"-->   
+        <section id="experience" class="tab-content">
+
+        <h3>Experiencia</h3>
+
+                    <div class="experience-item">
+
+                        <span class="experience-date">
+                            Formación
+                        </span>
+
+                        <h4>Proyectos de Mercadotecnia</h4>
+
+                        <p>
+                             Desarrollo de proyectos académicos enfocados en marketing,
+        branding, investigación de mercados y comportamiento del consumidor.
+                        </p>
+
+                    </div>
+
+
+                    <div class="experience-item">
+
+                        <span class="experience-date">
+                            Proyectos
+                        </span>
+
+                        <h4>Emprendimiento y Creatividad</h4>
+
+                        <p>
+                           Creación y desarrollo de ideas de negocio, estrategias de
+        comunicación y propuestas de marketing para diferentes proyectos.
+                        </p>
+
+                    </div>
+
+                </section>          
+    </div>
+
+    </section>
+
+
+</main>
+
+<!--Enlace para el javascript, quién da interacción de tarjeta-->
+<script src="script.js"></script>
+
+ </body> <!--Aqui se cierra EL BODY-->
+
+
+
+</html>
